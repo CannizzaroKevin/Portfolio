@@ -38,6 +38,7 @@ h1 {
 
 h2 {
     font-size:3rem;
+    margin-bottom: 100px;
 }
 
 p {
@@ -75,4 +76,35 @@ p {
 
 .w60 {
     width: 60%;
+}
+
+.text-center {
+    text-align:center;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.gap20 {
+    gap:20px;
+}
+
+.skill {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.skill img {
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.skill h3 {
+    color: #000;
+    margin-top: 10px;
 }
