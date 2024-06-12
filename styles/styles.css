@@ -236,10 +236,31 @@ header {
     background-color:#F06423;
     color: white;
 }
+.menu-header-mobile {
+    display: none;
+}
 
 @media(max-width:810px){
-    header{
-        
+    header {
+        height: 60px !important;
+    }
+
+    .header-logo{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .menu-header-mobile {
+        display: block;
+        border: 0px;
+        background-color: #FFF;
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 991;
     }
 
     .header-menu{
@@ -255,6 +276,10 @@ header {
         justify-content: center;
         gap: 30px  ;
         display: none;
+    }
+
+    .active {
+        display: block;
     }
 
     .header-menu li:last-child a {
